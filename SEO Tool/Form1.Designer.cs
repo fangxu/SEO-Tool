@@ -68,7 +68,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.pictureBoxSR = new System.Windows.Forms.PictureBox();
-            this.textBoxYoudaoIndex = new System.Windows.Forms.TextBox();
+            this.textBoxYahooIndex = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBoxSoSoIndex = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -478,7 +478,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.pictureBoxSR);
-            this.groupBox4.Controls.Add(this.textBoxYoudaoIndex);
+            this.groupBox4.Controls.Add(this.textBoxYahooIndex);
             this.groupBox4.Controls.Add(this.label9);
             this.groupBox4.Controls.Add(this.textBoxSoSoIndex);
             this.groupBox4.Controls.Add(this.label8);
@@ -504,20 +504,20 @@
             // 
             // textBoxYoudaoIndex
             // 
-            this.textBoxYoudaoIndex.Location = new System.Drawing.Point(88, 104);
-            this.textBoxYoudaoIndex.Name = "textBoxYoudaoIndex";
-            this.textBoxYoudaoIndex.ReadOnly = true;
-            this.textBoxYoudaoIndex.Size = new System.Drawing.Size(100, 21);
-            this.textBoxYoudaoIndex.TabIndex = 7;
+            this.textBoxYahooIndex.Location = new System.Drawing.Point(88, 104);
+            this.textBoxYahooIndex.Name = "textBoxYoudaoIndex";
+            this.textBoxYahooIndex.ReadOnly = true;
+            this.textBoxYahooIndex.Size = new System.Drawing.Size(100, 21);
+            this.textBoxYahooIndex.TabIndex = 7;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(11, 107);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.Size = new System.Drawing.Size(47, 12);
             this.label9.TabIndex = 6;
-            this.label9.Text = "Youdao：";
+            this.label9.Text = "Yahoo：";
             // 
             // textBoxSoSoIndex
             // 
@@ -655,7 +655,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBoxSogouIndex;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxYoudaoIndex;
+        private System.Windows.Forms.TextBox textBoxYahooIndex;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label10;

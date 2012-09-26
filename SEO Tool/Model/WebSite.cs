@@ -25,7 +25,7 @@ namespace SEO_Tool.Model
         private int baiduLink;
         private AlexaDetail alexa = null;
         private int sosoIndex;
-        private int youdaoIndex;
+        private int yahooIndex;
 
         public WebSite(String url, Form1 form)
         {
@@ -71,7 +71,7 @@ namespace SEO_Tool.Model
             sendP();
             this.sosoIndex = int.Parse(trim(Soso.Index(url)));
             sendP();
-            this.youdaoIndex = int.Parse(trim(Youdao.Index(url)));
+            this.yahooIndex = int.Parse(trim(Yahoo.Index(url)));
             sendP();
             Dictionary<String, String> data = Utils.Alexa.getAlexa(url);
             sendP();
@@ -137,15 +137,15 @@ namespace SEO_Tool.Model
             return r.Replace(s, "");
         }
 
-        public String YoudaoIndex
+        public String YahooIndex
         {
             get
             {
-                if (youdaoIndex == -1)
+                if (yahooIndex == -1)
                 {
                     return FAILED;
                 }
-                return youdaoIndex.ToString();
+                return yahooIndex.ToString();
             }
 
         }

@@ -69,7 +69,7 @@
     <Compile Include="Utils\Google.cs" />
     <Compile Include="Utils\Sogou.cs" />
     <Compile Include="Utils\Soso.cs" />
-    <Compile Include="Utils\Youdao.cs" />
+    <Compile Include="Utils\Yahoo.cs" />
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>

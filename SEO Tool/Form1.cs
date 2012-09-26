@@ -105,7 +105,7 @@ namespace SEO_Tool
             textBoxBaiduIndex.Text = webSite.BaiduIndex;
             textBoxBaiduLink.Text = webSite.BaiduLink;
             textBoxSoSoIndex.Text = webSite.SosoIndex;
-            textBoxYoudaoIndex.Text = webSite.YoudaoIndex;
+            textBoxYahooIndex.Text = webSite.YahooIndex;
             updateAlexa();
         }
 

@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace SEO_Tool.Utils
 {
-    class Youdao
+    class Yahoo
     {
         //http://www.yahoo.cn/s?q=site%3Atudou.com
         public static String Index(String url)

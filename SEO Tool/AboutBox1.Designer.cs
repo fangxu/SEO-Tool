@@ -52,8 +52,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(264, 74);
             this.label2.TabIndex = 26;
-            this.label2.Text = "    该软件可以查询的内容有：google pr、google收录、google反链，baidu收录和反链、搜狗pr和收录、soso收录和youdao收录、还有" +
-                "Alexa信息。数据都是访问官方服务器得到的，准确性和实时性都很高。";
+            this.label2.Text = "    该软件可以查询的内容有：google pr、google收录、google反链，baidu收录和反链、搜狗pr和收录、soso收录和yahoo收录、还有A" +
+                "lexa信息。数据都是访问官方服务器得到的，准确性和实时性都很高。";
             // 
             // label6
             // 
