@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("SEO Tool")]
-[assembly: AssemblyDescription("查询网站SEO信息")]
+[assembly: AssemblyTitle("SEI Tool")]
+[assembly: AssemblyDescription("查询网站收录信息")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("wuyuans.com")]
-[assembly: AssemblyProduct("SEO Tool")]
+[assembly: AssemblyProduct("SEI Tool")]
 [assembly: AssemblyCopyright("Copyright © wuyuans.com 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

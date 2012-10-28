@@ -1,6 +1,6 @@
 ﻿namespace SEO_Tool
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.textBoxDomain = new System.Windows.Forms.TextBox();
             this.buttonQuery = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -502,10 +502,10 @@
             this.pictureBoxSR.TabIndex = 10;
             this.pictureBoxSR.TabStop = false;
             // 
-            // textBoxYoudaoIndex
+            // textBoxYahooIndex
             // 
             this.textBoxYahooIndex.Location = new System.Drawing.Point(88, 104);
-            this.textBoxYahooIndex.Name = "textBoxYoudaoIndex";
+            this.textBoxYahooIndex.Name = "textBoxYahooIndex";
             this.textBoxYahooIndex.ReadOnly = true;
             this.textBoxYahooIndex.Size = new System.Drawing.Size(100, 21);
             this.textBoxYahooIndex.TabIndex = 7;
@@ -596,7 +596,7 @@
             this.progressBar1.Size = new System.Drawing.Size(90, 20);
             this.progressBar1.TabIndex = 12;
             // 
-            // Form1
+            // MainForm
             // 
             this.AcceptButton = this.buttonQuery;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -613,8 +613,8 @@
             this.Controls.Add(this.textBoxDomain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
-            this.Text = "SEO Tool";
+            this.Name = "MainForm";
+            this.Text = "SEI Tool";
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

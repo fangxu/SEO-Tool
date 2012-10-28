@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace SEO_Tool
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private WebSite webSite = null;
         public const int USER = 0x0400;
@@ -26,7 +26,7 @@ namespace SEO_Tool
             progressBar1.PerformStep();
         }
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             this.textBoxDomain.GotFocus += new System.EventHandler(this.textboxDomain_GotFocus);

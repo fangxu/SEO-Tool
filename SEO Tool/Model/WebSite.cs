@@ -11,7 +11,7 @@ namespace SEO_Tool.Model
 {
     class WebSite
     {
-        private Form1 form;
+        private MainForm form;
         private int currentStep = 0;
         private const String FAILED = "查询失败";
         private String name;
@@ -27,7 +27,7 @@ namespace SEO_Tool.Model
         private int sosoIndex;
         private int yahooIndex;
 
-        public WebSite(String url, Form1 form)
+        public WebSite(String url, MainForm form)
         {
             Match m = Regex.Match(url, @"^http://(\S*)/*$");
             if (m.Success)
@@ -41,7 +41,7 @@ namespace SEO_Tool.Model
 
         void sendP()
         {
-            form.BeginInvoke(new Form1.MessageHandler(form.MessageP),
+            form.BeginInvoke(new MainForm.MessageHandler(form.MessageP),
                 new object[] { ++currentStep });
         }
 

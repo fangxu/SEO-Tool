@@ -34,9 +34,19 @@ namespace SEO_Tool.Utils
         {
             string html = null;
             WebClient wc = new WebClient();
-            try { html = wc.DownloadString(url); }
-            catch { }
-            wc.Dispose();
+            try
+            {
+                html = wc.DownloadString(url);
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine(ex.Data);
+            }
+            finally
+            {
+                wc.Dispose();
+            }
+
             return html;
         }
         /// <summary>  
@@ -48,7 +58,7 @@ namespace SEO_Tool.Utils
         public static string GetHtml(string url, Encoding encoding)
         {
             HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url);
-            request.Timeout = 100 * 1000;
+            request.Timeout = 20 * 1000;
             request.Method = "GET";
             request.MaximumAutomaticRedirections = 1000;
             request.ContentType = "text/html";

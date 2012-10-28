@@ -13,7 +13,8 @@ namespace SEO_Tool.Utils
         public AboutBox1()
         {
             InitializeComponent();
-            this.Text = String.Format("关于 {0}", AssemblyTitle);
+            this.Text = String.Format("关于 {0} - {1}", AssemblyTitle,
+                AssemblyVersion.Substring(0,AssemblyVersion.IndexOf('.',2)));
             
         }
 
@@ -100,6 +101,11 @@ namespace SEO_Tool.Utils
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(@"http://wuyuans.com"); 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"http://wuyuans.com/2012/10/sei-tool/");
         }
                 
     }
